@@ -10,6 +10,10 @@
     "Quest" : {
         "shortName" : "TestQuest",
         "description" : "Test this quest!",
+        "reward" : [
+                {"uri" : "axe", "quantity" : 2},
+                {"uri" : "sand", "quantity" : 3}
+                ],
         "tasks" : [
             {
                 "id" : "collectDirt",

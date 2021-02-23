@@ -20,6 +20,10 @@
     "Quest" : {
         "shortName" : "TestBookQuest",
         "description" : "Test this quest on book!",
+        "reward" : [
+                {"uri" : "mud", "quantity" : 4},
+                {"uri" : "sand", "quantity" : 7}
+                ],
         "tasks" : [
             {
                 "id" : "collectDirt",
